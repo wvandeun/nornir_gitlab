@@ -1,0 +1,11 @@
+---
+name: nornir_gitlab
+summary: |
+    Nornir tasks plugin for [Gitlab](https://about.gitlab.com/)
+nornir_version: ~3
+categories:
+  - netbox
+  - version_control
+intro_file: README.md
+tasks_plugins:
+  - nornir_gitlab.plugins.tasks.gitlab
